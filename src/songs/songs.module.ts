@@ -6,6 +6,4 @@ import { SongsService } from './songs.service';
   controllers: [SongsController],
   providers: [SongsService],
 })
-export class SongsModule {
-  return;
-}
+export class SongsModule { }

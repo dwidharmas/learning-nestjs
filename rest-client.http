@@ -7,12 +7,14 @@ GET http://localhost:3000/songs/1
 
 ### CREATE NEW SONG
 POST  http://localhost:3000/songs
-# Content-Type: application/json
+Content-Type: application/json
 
-# {
-#   releasedDate: "2024-09-29",
-#   duration: "3:38"
-# }
+{
+  "title": "Happy Song",
+  "artists": ["dwi"],
+  "releasedDate": "2024-09-29",
+  "duration": "03:38"
+}
 
 ### UPDATE SONG
 PUT  http://localhost:3000/songs/1
