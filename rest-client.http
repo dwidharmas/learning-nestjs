@@ -1,4 +1,7 @@
 
+### Local
+GET http://localhost:3000
+
 ### FIND ALL SONG
 GET http://localhost:3000/songs
 
