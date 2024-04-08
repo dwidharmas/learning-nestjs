@@ -9,6 +9,7 @@ export class SongsService {
     return this.songs;
   }
   findAll() {
-    return this.songs;
+    throw new Error('Error in DB while fetching');
+    // return this.songs;
   }
 }
